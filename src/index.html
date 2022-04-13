@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <main>
+        <section class="display">
+            <span class="screen operation">0</span>
+            <span class="screen resolve">0</span>
+        </section>
+        <section class="keyboard">
+            <button id="openParentesis" onclick="buttonsList.openParentesis.print()">(</button>
+            <button id="closeParentesis" onclick="buttonsList.closeParentesis.print()">)</button>
+            <button id="module" onclick="buttonsList.module.print()">%</button>
+            <button id="plus" onclick="buttonsList.plus.print()">+</button>
+            <button id="seven" onclick="buttonsList.seven.print()">7</button>
+            <button id="eight" onclick="buttonsList.eigth.print()">8</button>
+            <button id="nine" onclick="buttonsList.nine.print()">9</button>
+            <button id="divide" onclick="buttonsList.divide.print()">÷</button>
+            <button id="four" onclick="buttonsList.four.print()">4</button>
+            <button id="five" onclick="buttonsList.five.print()">5</button>
+            <button id="six" onclick="buttonsList.six.print()">6</button>
+            <button id="multiplication" onclick="buttonsList.multiplication.print()">x</button>
+            <button id="one" onclick="buttonsList.one.print()">1</button>
+            <button id="two" onclick="buttonsList.two.print()">2</button>
+            <button id="three" onclick="buttonsList.three.print()">3</button>
+            <button id="minus" onclick="buttonsList.minus.print()">-</button>
+            <button id="zero" onclick="buttonsList.zero.print()">0</button>
+            <button id="dot" onclick="buttonsList.dot.print()">.</button>
+            <button id="equal" onclick="buttonsList.equal.equal()">=</button>
+            <button id="clear" onclick="calculatorDisplay.clear()">C</button>
+        </section>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
